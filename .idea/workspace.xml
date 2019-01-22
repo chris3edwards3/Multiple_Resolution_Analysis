@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb9d8e37-71c0-4bec-a4a1-898eeee44daa" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mr_analysis" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>az</find>
+      <find>_str</find>
+      <find>direc</find>
+      <find>begin</find>
+      <find>n</find>
+      <find>res</find>
+      <find>1000</find>
+      <find>era5</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PlotTimeSeriesTest.py" />
+        <option value="$PROJECT_DIR$/DailyAvgCompPlot.py" />
+        <option value="$PROJECT_DIR$/Try_m3_nc_PandasDF.py" />
+        <option value="$PROJECT_DIR$/Stat_Comparison_AZ.py" />
+        <option value="$PROJECT_DIR$/Plot_Comparison.py" />
+        <option value="$PROJECT_DIR$/sandbox2.py" />
+        <option value="$PROJECT_DIR$/Try_Qout_nc_PandasDF.py" />
+        <option value="$PROJECT_DIR$/Old_incorrect.py" />
+        <option value="$PROJECT_DIR$/AllStreamtoCSV.py" />
+        <option value="$PROJECT_DIR$/z_OLD/Plot_Comparison.py" />
+        <option value="$PROJECT_DIR$/TimeSeriesCsv.py" />
+        <option value="$PROJECT_DIR$/State_Timeseries.py" />
+        <option value="$PROJECT_DIR$/Volume_Calcuation.py" />
+        <option value="$PROJECT_DIR$/Stat_Comparison_States.py" />
+        <option value="$PROJECT_DIR$/../rapid_to_csv/seasonal_to_csv_1" />
+        <option value="$PROJECT_DIR$/Qout_to_DF.py" />
+        <option value="$PROJECT_DIR$/Daily_Avg_plot.py" />
+        <option value="$PROJECT_DIR$/venv/Plot_Calculated_DailyAvg.py" />
+        <option value="$PROJECT_DIR$/Plot_obs_data_comparison.py" />
+        <option value="$PROJECT_DIR$/RapidDailyvsGaugeDaily.py" />
+        <option value="$PROJECT_DIR$/SeasAvgNetcdf_vs_calculatedfromTS.py" />
+        <option value="$PROJECT_DIR$/RapidDailyvsGaugeDaily2.py" />
+        <option value="$PROJECT_DIR$/ERA5 Analysis/Plot_ts_comp_era5.py" />
+        <option value="$PROJECT_DIR$/ERA5 Analysis/era5_sandbox.py" />
+        <option value="$PROJECT_DIR$/ERA5 Analysis/Qout_to_PandasDF_Era5.py" />
+        <option value="$PROJECT_DIR$/ERA5 Analysis/plot_era5_mult_res.py" />
+        <option value="$PROJECT_DIR$/Scatter_Plot.py" />
+        <option value="$PROJECT_DIR$/sandbox_py.py" />
+        <option value="$PROJECT_DIR$/Stat_Comparison.py" />
+        <option value="$PROJECT_DIR$/qout_sandbox.py" />
+        <option value="$PROJECT_DIR$/Rapid_Daily_Avg_plot.py" />
+        <option value="$PROJECT_DIR$/SeasonalAvg_Plot.py" />
+        <option value="$PROJECT_DIR$/Sim_vs_Obs_Scatter.py" />
+        <option value="$PROJECT_DIR$/Plot_Comp_2" />
+        <option value="$PROJECT_DIR$/Seas_Avg_Obs_vs_Sim.py" />
+        <option value="$PROJECT_DIR$/Observed_Data/Sim_vs_Obs_Metrics.py" />
+        <option value="$PROJECT_DIR$/ERA5 Analysis/Scatter_era5_vs_interim.py" />
+        <option value="$PROJECT_DIR$/ERA5 Analysis/Plot_ts_era5_vs_int.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="493" />
+    <option name="y" value="65" />
+    <option name="width" value="1079" />
+    <option name="height" value="708" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Multiple_Resolution_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multiple_Resolution_Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multiple_Resolution_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multiple_Resolution_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="ERA5 Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Less_Used" />
+      <recent name="$PROJECT_DIR$/Resolution_Analysis-Era-Interim" />
+      <recent name="$PROJECT_DIR$/Resolution_comp_erai" />
+      <recent name="$PROJECT_DIR$/Observed_Data" />
+      <recent name="$PROJECT_DIR$/z_OLD" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Plot-Full-TS_Obs_vs_Era-Interim">
+    <configuration name="Plot-Full-TS_Obs_vs_Era-Interim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multiple_Resolution_Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Observed_Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Observed_Data/Plot-Full-TS_Obs_vs_Era-Interim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Plot_ts_era5_vs_int" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multiple_Resolution_Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ERA5 Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ERA5 Analysis/Plot-TS_ERA-5_vs_ERA-Interim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Seas-Avg-Plot_Obs_vs_ERA-Interim-Qout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multiple_Resolution_Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Observed_Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Observed_Data/Seas-Avg-Plot_Obs_vs_ERA-Interim-Qout.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Seas-Avg_Obs_vs_ERA-Interim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multiple_Resolution_Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Observed_Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Observed_Data/Seas-Avg-Plot_Obs_vs_ERA-Interim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sim_vs_Obs_Scatter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multiple_Resolution_Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Observed_Data/Scatter-Full-TS_Obs_vs_ERA-Interim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Try_Qout_nc_PandasDF" type="PythonConfigurationType" factoryName="Python">
+      <module name="Multiple_Resolution_Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Try_Qout_nc_PandasDF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Try_Qout_nc_PandasDF" />
+      <item itemvalue="Python.Sim_vs_Obs_Scatter" />
+      <item itemvalue="Python.Plot_ts_era5_vs_int" />
+      <item itemvalue="Python.Seas-Avg_Obs_vs_ERA-Interim" />
+      <item itemvalue="Python.Plot-Full-TS_Obs_vs_Era-Interim" />
+      <item itemvalue="Python.Seas-Avg-Plot_Obs_vs_ERA-Interim-Qout" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Seas-Avg_Obs_vs_ERA-Interim" />
+        <item itemvalue="Python.Seas-Avg-Plot_Obs_vs_ERA-Interim-Qout" />
+        <item itemvalue="Python.Plot-Full-TS_Obs_vs_Era-Interim" />
+        <item itemvalue="Python.Sim_vs_Obs_Scatter" />
+        <item itemvalue="Python.Plot_ts_era5_vs_int" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb9d8e37-71c0-4bec-a4a1-898eeee44daa" name="Default Changelist" comment="" />
+      <created>1536340899344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536340899344</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="493" y="65" width="1079" height="708" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987593" visible="true" weight="0.2528409" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5012407" side_tool="true" weight="0.2744807" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20654045" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32866043" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987593" visible="true" weight="0.28649068" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5012407" side_tool="true" weight="0.2744807" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20772947" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32866043" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/z_OLD/DailyAvgCompPlot.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/miniconda3/envs/py3k/lib/python3.6/site-packages/pandas/core/internals.py" />
+    <entry file="file://$PROJECT_DIR$/Stat_Comp_with_seasonal_segments.py" />
+    <entry file="file://$USER_HOME$/miniconda3/envs/py3k/lib/python2.7/site-packages/pandas/core/internals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="1404" selection-start-line="1404" selection-end-line="1404" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rapid_to_csv/return_periods_to_csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox2.py" />
+    <entry file="file://$PROJECT_DIR$/Try_Qout_nc_PandasDF.py" />
+    <entry file="file://$PROJECT_DIR$/Stat_Comparison_AZ.py" />
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Less_Used/Volume_Calcuation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_OLD/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/z_OLD/AllStreamtoCSV.py" />
+    <entry file="file://$PROJECT_DIR$/../rapid_to_csv/seasonal_to_csv_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ERA5 Analysis/Qout_to_PandasDF_Era5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ERA5 Analysis/sandbox_era-5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/sandbox_py.py" />
+    <entry file="file://$PROJECT_DIR$/z_OLD/Plot_Comparison.py" />
+    <entry file="file://$PROJECT_DIR$/z_OLD/DailyAvgCompPlot.py" />
+    <entry file="file://$PROJECT_DIR$/z_OLD/Old_incorrect.py" />
+    <entry file="file://$PROJECT_DIR$/z_OLD/TimeSeriesCsv.py" />
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/sandbox_erai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="965">
+          <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_OLD/Rapid_Daily_Avg_plot.py" />
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Plot-Time-Series_Resolution-Comparison">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="157" column="18" lean-forward="true" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ERA5 Analysis/Scatter_ERA-5_vs_ERA-Interim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3750">
+          <caret line="257" column="27" selection-start-line="257" selection-start-column="27" selection-end-line="257" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Qout_erai_to_PandasDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Scatter_Plot_Resolution-Comparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Metrics_Resolution-Comparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Less_Used/Metric_Resolution-Comparison-States.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Plot-Seas-Avg-_Resolution_Comparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="159" column="91" selection-start-line="159" selection-start-column="91" selection-end-line="159" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Less_Used/State-all-res_time-series_to-csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="78" column="97" selection-start-line="78" selection-start-column="97" selection-end-line="78" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ERA5 Analysis/Plot_TS_ERA-5_Resolution-Comparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="167" column="28" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Observed_Data/Metrics-TS_Obs_vs_ERA-Interim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Observed_Data/Seas-Avg_Obs_vs_ERA-Interim_no_loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Observed_Data/Scatter-Full-TS_Obs_vs_ERA-Interim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="193" column="8" lean-forward="true" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Observed_Data/Plot-Full-TS_Obs_vs_Era-Interim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Observed_Data/Seas-Avg-Plot_Obs_vs_ERA-Interim-Qout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="187" column="39" lean-forward="true" selection-start-line="187" selection-start-column="39" selection-end-line="187" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Observed_Data/Seas-Avg-Plot_Obs_vs_ERA-Interim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Observed_Data/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Less_Used/Seas-Avg-Plot_Calc-from-Qout_Resolution_Comparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="144" column="34" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolution_Analysis-Era-Interim/Less_Used/Seas-Avg-Plot_netcdf_vs_Calculated-From-Qout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="79" column="95" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ERA5 Analysis/Plot-TS_ERA-5_vs_ERA-Interim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="265" column="91" selection-start-line="265" selection-start-column="91" selection-end-line="265" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
