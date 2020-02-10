@@ -12,8 +12,8 @@ from netCDF4 import Dataset
 # *****************************************************************************************************
 
 # User Input Information:
-location = 'nam_white' # Match output folder name from RAPIDpy
-comid_list = [110179, 110079] # Comid's for which csv files are desired
+location = 'sas-mlnd-mekong' # Match output folder name from RAPIDpy
+comid_list = [72202, 72890, 73175, 73244, 73338, 73338, 73477, 73487] # Comid's for which csv files are desired
 dir = '/Users/chrisedwards/Documents/era5_test/output_netcdf'
 csv_dir = '/Users/chrisedwards/Documents/era5_test/output_timeseries'
 qout_file = 'Qout_era5_t640_1hr_19790101to20181231.nc'
@@ -42,7 +42,12 @@ counter = 0
 
 for n in riv:
     name='era5-{}-{}'.format(location, n)
-    temp_dictionary_era5['{}'.format(name)] = pd.DataFrame(data=Q[:, counter], index=dates, columns=['flowrate (cms)'])
+
+    if Q.shape[0] > Q.shape[1]:
+        temp_dictionary_era5['{}'.format(name)] = pd.DataFrame(data=Q[:, counter], index=dates, columns=['flowrate (cms)'])
+    else:
+        temp_dictionary_era5['{}'.format(name)] = pd.DataFrame(data=Q[counter, :], index=dates, columns=['flowrate (cms)'])
+
     streamflow_dict_era5.update(temp_dictionary_era5)
     list_streams_era5.append(name)
     counter += 1
@@ -63,5 +68,5 @@ for id in comid_list:
     df.reset_index(level=0, inplace=True)
     df.rename(columns={'index': 'datetime'},inplace=True)
     csv_path = os.path.join(csv_dir, '{}.csv'.format(stream_name))
-    # df.to_csv(csv_path, index=False)
+    df.to_csv(csv_path, index=False)
 
