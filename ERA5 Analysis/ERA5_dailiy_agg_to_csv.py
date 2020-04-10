@@ -12,12 +12,15 @@ from netCDF4 import Dataset
 # *****************************************************************************************************
 
 # User Input Information:
-location = 'sam_magdalena-daily' # Match output folder name from RAPIDpy
-comid_list = [132748] # Comid's for which csv files are desired
-dir = '/Users/chrisedwards/Documents/era5_test/output_netcdf'
-csv_dir = '/Users/chrisedwards/Documents/era5_test/output_timeseries'
-qout_file = 'Qout_era5_t640_1hr_19790101to20181231.nc'
-#qout_file = 'Qout_era5_t640_24hr_19790101to20181231.nc'
+location = 'south_asia-geoglows-era_5' # Match output folder name from RAPIDpy
+comid_list = [5061131, 5070113, 5076664, 5074545, 5076937, 5077851, 5080349, 5080535, 5080177, 5080305] # Comid's for which csv files are desired
+# dir = '/Users/chrisedwards/Documents/era5_test/output_netcdf'
+dir = '/Users/chrisedwards/Documents/era5_test/SouthAsiaGeoglows/outputNetCDF'
+# csv_dir = '/Users/chrisedwards/Documents/era5_test/output_timeseries'
+csv_dir = '/Users/chrisedwards/Documents/era5_test/SouthAsiaGeoglows/timeSeries'
+#qout_file = 'Qout_era5_t640_1hr_19790101to20181231.nc'
+# qout_file = 'Qout_era5_t640_24hr_19790101to20181231.nc'
+qout_file = 'DailyAggregatedERA5_Qout_era5_t640_1hr_19790101to20181231.nc4'
 
 # Call the NetCDF file.
 file = os.path.join(dir, location, qout_file)
@@ -27,8 +30,8 @@ nc.dimensions.keys()
 
 # Define variables from the NetCDF file.
 riv = nc.variables['rivid'][:].tolist()
-lat = nc.variables['lat'][:]
-lon = nc.variables['lon'][:]
+# lat = nc.variables['lat'][:]
+# lon = nc.variables['lon'][:]
 time = nc.variables['time'][:].tolist()
 # Q_error = nc.variables['Qout_error'][:]
 Q = nc.variables['Qout'][:]
@@ -44,7 +47,7 @@ counter = 0
 for n in comid_list:
     name = 'era5-{}-{}'.format(location, n)
 
-    if Q.shape[0] > Q.shape[1]:
+    if Q.shape[1] > Q.shape[0]:
         temp_dictionary_era5['{}'.format(name)] = pd.DataFrame(data=Q[:, counter], index=dates, columns=['flowrate (cms)'])
     else:
         temp_dictionary_era5['{}'.format(name)] = pd.DataFrame(data=Q[counter, :], index=dates, columns=['flowrate (cms)'])
@@ -61,6 +64,8 @@ for n in comid_list:
 # ***************************************************************************************************************
 
 # Save time-series for selected comid's as csv files:
+
+print(streamflow_dict_era5)
 
 for id in comid_list:
     comid = str(id)
