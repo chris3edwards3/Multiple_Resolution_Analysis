@@ -12,11 +12,11 @@ from netCDF4 import Dataset
 # *****************************************************************************************************
 
 # User Input Information:
-location = 'south_asia-geoglows-era_interim' # Match output folder name from RAPIDpy
-comid_list = [5061131, 5070113, 5076664, 5074545, 5076937, 5077851, 5080349, 5080535, 5080177, 5080305] # Comid's for which csv files are desired
-dir = '/Users/chrisedwards/Documents/era5_test/SouthAsiaGeoglows/outputNetCDF'
-csv_dir = '/Users/chrisedwards/Documents/era5_test/SouthAsiaGeoglows/timeSeries'
-qout_file = 'Qout_erai_t511_24hr_19800101to20141231.nc'
+location = 'india-1800-deltaT-ERAi' # Match output folder name from RAPIDpy
+comid_list = [55596, 58238, 58317, 58384, 59818, 59909] # Comid's for which csv files are desired
+dir = '/Users/chrisedwards/Documents/era5_test/India-DeltaT/outputNetCDF'
+csv_dir = '/Users/chrisedwards/Documents/era5_test/India-DeltaT/timeSeries'
+qout_file = 'Qout_1800dT_erai_t511_24hr_19800101to20141231.nc'
 
 # Call the NetCDF file.
 file = os.path.join(dir, location, qout_file)
@@ -40,10 +40,10 @@ streamflow_dict_erai = {}
 list_streams_erai = []
 counter = 0
 
-for n in comid_list:
+for n in riv:
     name = 'erai-{}-{}'.format(location, n)
 
-    if Q.shape[1] > Q.shape[0]:
+    if Q.shape[0] > Q.shape[1]:
         temp_dictionary_erai['{}'.format(name)] = pd.DataFrame(data=Q[:, counter], index=dates, columns=['flowrate (cms)'])
     else:
         temp_dictionary_erai['{}'.format(name)] = pd.DataFrame(data=Q[counter, :], index=dates, columns=['flowrate (cms)'])

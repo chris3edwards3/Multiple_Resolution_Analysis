@@ -12,12 +12,15 @@ from netCDF4 import Dataset
 # *****************************************************************************************************
 
 # User Input Information:
-location = 'sam_magdalena-daily' # Match output folder name from RAPIDpy
-comid_list = [132748] # Comid's for which csv files are desired
-dir = '/Users/chrisedwards/Documents/era5_test/output_netcdf'
-csv_dir = '/Users/chrisedwards/Documents/era5_test/output_timeseries'
-qout_file = 'Qout_era5_t640_1hr_19790101to20181231.nc'
-#qout_file = 'Qout_era5_t640_24hr_19790101to20181231.nc'
+location = '' # Match output folder name from RAPIDpy
+comid_list = [134104, 133894, 133872, 133439, 133166, 134191] # Comid's for which csv files are desired
+# dir = '/Users/chrisedwards/Documents/era5_test/output_netcdf'
+dir = '/Users/chrisedwards/Documents/era5_test/Initialization_continuous_era5'
+# csv_dir = '/Users/chrisedwards/Documents/era5_test/output_timeseries'
+csv_dir = '/Users/chrisedwards/Documents/era5_test/Initialization_continuous_era5'
+# qout_file = 'Qout_era5_t640_1hr_19790101to20181231.nc'
+# qout_file = 'Qout_era5_t640_24hr_19790101to20181231.nc'
+qout_file = 'Qout_era5_t640_1hr_19790101to19801231.nc'
 
 # Call the NetCDF file.
 file = os.path.join(dir, location, qout_file)
@@ -41,7 +44,7 @@ streamflow_dict_era5 = {}
 list_streams_era5 = []
 counter = 0
 
-for n in comid_list:
+for n in riv:
     name = 'era5-{}-{}'.format(location, n)
 
     if Q.shape[0] > Q.shape[1]:
